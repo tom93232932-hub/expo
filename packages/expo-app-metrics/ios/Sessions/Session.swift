@@ -1,9 +1,10 @@
 import Foundation
+import ExpoModulesCore
 
 /**
  Session is a time frame during the app's lifetime that tracks various metrics from its start till its end.
  */
-public class Session: MetricsReceiver, @unchecked Sendable {
+public class Session: SharedObject, MetricsReceiver, @unchecked Sendable {
   /**
    Unique ID of the session in UUID v4 format.
    */
@@ -28,6 +29,7 @@ public class Session: MetricsReceiver, @unchecked Sendable {
     self.id = UUID().uuidString
     self.startDate = Date.now
     self.type = type
+    super.init()
 
     // The session-row INSERT is fire-and-forget on `AppMetricsActor`. Subsequent writes for this
     // session (metrics, logs, `stop()`, crash reports) all go through the same actor, and tasks on
@@ -56,6 +58,7 @@ public class Session: MetricsReceiver, @unchecked Sendable {
     self.type = type
     self.startDate = startDate
     self.endDate = endDate
+    super.init()
   }
 
   /**
