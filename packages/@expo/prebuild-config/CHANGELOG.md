@@ -8,6 +8,8 @@
 
 ### 🐛 Bug fixes
 
+- Generated iOS projects now include a `SceneDelegate` and `UIApplicationSceneManifest` for the scene-based life cycle.
+
 ### 💡 Others
 
 ## 56.0.13 — 2026-05-26
