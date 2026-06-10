@@ -21,6 +21,7 @@
 		D282DBE831AD40E1A1AC268D /* ReactNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18084E2094440497FC7B54 /* ReactNativeView.swift */; };
 		E59ADCD753112C92B53B72C2 /* Pods_minimaltester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EB5C8547C26B5F5A80EC8A /* Pods_minimaltester.framework */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
+		F11748442D0307B40044C1D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748432D0307B40044C1D9 /* SceneDelegate.swift */; };
 		F8A7A38DB64749A79EAFA308 /* Messaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A922A41F6C40CCBA8B9744 /* Messaging.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,21 +32,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = minimaltester/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = minimaltester/Info.plist; sourceTree = "<group>"; };
 		1542814A734680919CA3FC24 /* Pods-minimaltester-minimaltesterbrownfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minimaltester-minimaltesterbrownfield.debug.xcconfig"; path = "Target Support Files/Pods-minimaltester-minimaltesterbrownfield/Pods-minimaltester-minimaltesterbrownfield.debug.xcconfig"; sourceTree = "<group>"; };
-		1801EB7D3BD0486CB18C6219 /* ReactNativeDelegate.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ReactNativeDelegate.swift; path = ReactNativeDelegate.swift; sourceTree = "<group>"; };
 		1F1CC2A301679CCD963E9359 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-minimaltester/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		51C19A82F7744EC78CE90FE9 /* ExpoAppDelegate.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ExpoAppDelegate.swift; path = ExpoAppDelegate.swift; sourceTree = "<group>"; };
 		577C196F1C523F15FE4FFF90 /* Pods_minimaltester_minimaltesterbrownfield.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_minimaltester_minimaltesterbrownfield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D18084E2094440497FC7B54 /* ReactNativeView.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ReactNativeView.swift; path = minimaltesterbrownfield/ReactNativeView.swift; sourceTree = "<group>"; };
-		5F8A760D8CC9477AB730ECB3 /* Messaging.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Messaging.swift; path = Messaging.swift; sourceTree = "<group>"; };
-		62B2CA1DDD65B70C8A4A4F21 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = minimaltester/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		62B2CA1DDD65B70C8A4A4F21 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = minimaltester/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		64A8BB4889254F468AFB8009 /* ReactNativeViewController.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ReactNativeViewController.swift; path = minimaltesterbrownfield/ReactNativeViewController.swift; sourceTree = "<group>"; };
 		81A922A41F6C40CCBA8B9744 /* Messaging.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Messaging.swift; path = minimaltesterbrownfield/Messaging.swift; sourceTree = "<group>"; };
-		96BCB4A189F24F9ABA240142 /* ReactNativeViewController.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ReactNativeViewController.swift; path = ReactNativeViewController.swift; sourceTree = "<group>"; };
 		9BD171EF800B836F41AA7157 /* Pods-minimaltester-minimaltesterbrownfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minimaltester-minimaltesterbrownfield.release.xcconfig"; path = "Target Support Files/Pods-minimaltester-minimaltesterbrownfield/Pods-minimaltester-minimaltesterbrownfield.release.xcconfig"; sourceTree = "<group>"; };
-		A38946CA9CC64B3DBEBD6F5E /* ReactNativeHostManager.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ReactNativeHostManager.swift; path = ReactNativeHostManager.swift; sourceTree = "<group>"; };
 		A8EF46A24F34EC9F0DC69C66 /* Pods-minimaltester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minimaltester.release.xcconfig"; path = "Target Support Files/Pods-minimaltester/Pods-minimaltester.release.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = minimaltester/SplashScreen.storyboard; sourceTree = "<group>"; };
-		AB30200E40E048E9BF6B42B2 /* minimaltesterbrownfield.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = undefined; name = minimaltesterbrownfield.framework; path = minimaltesterbrownfield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB30200E40E048E9BF6B42B2 /* minimaltesterbrownfield.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; fileEncoding = 9; includeInIndex = 0; path = minimaltesterbrownfield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B544B2FF0A214790A95E8579 /* ReactNativeHostManager.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ReactNativeHostManager.swift; path = minimaltesterbrownfield/ReactNativeHostManager.swift; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		D1E2169A07AC041A42BFE504 /* Pods-minimaltester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minimaltester.debug.xcconfig"; path = "Target Support Files/Pods-minimaltester/Pods-minimaltester.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,8 +49,8 @@
 		DC51EEC009B14FBFBF598686 /* ReactNativeDelegate.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ReactNativeDelegate.swift; path = minimaltesterbrownfield/ReactNativeDelegate.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = minimaltester/AppDelegate.swift; sourceTree = "<group>"; };
+		F11748432D0307B40044C1D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = minimaltester/SceneDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* minimaltester-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "minimaltester-Bridging-Header.h"; path = "minimaltester/minimaltester-Bridging-Header.h"; sourceTree = "<group>"; };
-		F22E17C2725A489ABF0322EF /* ReactNativeView.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ReactNativeView.swift; path = ReactNativeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				F11748412D0307B40044C1D9 /* AppDelegate.swift */,
+				F11748432D0307B40044C1D9 /* SceneDelegate.swift */,
 				F11748442D0722820044C1D9 /* minimaltester-Bridging-Header.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -89,20 +86,6 @@
 				62B2CA1DDD65B70C8A4A4F21 /* PrivacyInfo.xcprivacy */,
 			);
 			name = minimaltester;
-			sourceTree = "<group>";
-		};
-		1794E3642A6747BC8D1FC462 /* minimaltesterbrownfield */ = {
-			isa = PBXGroup;
-			children = (
-				A38946CA9CC64B3DBEBD6F5E /* ReactNativeHostManager.swift */,
-				5F8A760D8CC9477AB730ECB3 /* Messaging.swift */,
-				F22E17C2725A489ABF0322EF /* ReactNativeView.swift */,
-				96BCB4A189F24F9ABA240142 /* ReactNativeViewController.swift */,
-				51C19A82F7744EC78CE90FE9 /* ExpoAppDelegate.swift */,
-				1801EB7D3BD0486CB18C6219 /* ReactNativeDelegate.swift */,
-			);
-			name = minimaltesterbrownfield;
-			path = "/Users/patrykmleczek/Desktop/expo/apps/minimal-tester/ios/minimaltesterbrownfield";
 			sourceTree = "<group>";
 		};
 		1A255ECA33B68A3B5DFC5340 /* ExpoModulesProviders */ = {
@@ -132,6 +115,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		401E960D2FD959FA002027B1 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				B544B2FF0A214790A95E8579 /* ReactNativeHostManager.swift */,
+				81A922A41F6C40CCBA8B9744 /* Messaging.swift */,
+				5D18084E2094440497FC7B54 /* ReactNativeView.swift */,
+				64A8BB4889254F468AFB8009 /* ReactNativeViewController.swift */,
+				D8C902F57C774C02A21D1CFD /* ExpoAppDelegate.swift */,
+				DC51EEC009B14FBFBF598686 /* ReactNativeDelegate.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		4FC58E33D639752B63498CD9 /* minimaltester */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,9 +150,9 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				1794E3642A6747BC8D1FC462 /* minimaltesterbrownfield */,
 				C70DFE939BD82863DD7F52B4 /* Pods */,
 				1A255ECA33B68A3B5DFC5340 /* ExpoModulesProviders */,
+				401E960D2FD959FA002027B1 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -189,7 +185,6 @@
 				1542814A734680919CA3FC24 /* Pods-minimaltester-minimaltesterbrownfield.debug.xcconfig */,
 				9BD171EF800B836F41AA7157 /* Pods-minimaltester-minimaltesterbrownfield.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -510,6 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
+				F11748442D0307B40044C1D9 /* SceneDelegate.swift in Sources */,
 				2C72E0D1186492E4CC797254 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
